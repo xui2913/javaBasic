@@ -6,25 +6,25 @@ import java.util.Scanner;
 public class TwoWork {
     public static void main(String[] args) {
 //        水仙花数
-//        int a,b,c,d;
-//        for (a=100;a<1000;a++){
-//            b=a%10;
-//            c=a/10%10;
-//            d=a/100%10;
-//            if (a==b*b*b+c*c*c+d*d*d){
-//                System.out.println(a);
-//            }
-//        }
+        int a,b,c,d;
+        for (a=100;a<1000;a++){
+            b=a%10;
+            c=a/10%10;
+            d=a/100%10;
+            if (a==b*b*b+c*c*c+d*d*d){
+                System.out.println(a);
+            }
+        }
 //      学生成绩
-//        Scanner input = new Scanner(System.in);
-//        int result = input.nextInt();
-//         if (result>=90){
-//             System.out.println("A");
-//         } else if (result>59&&result<90){
-//             System.out.println("B");
-//         }else {
-//             System.out.println("C");
-//         }
+        Scanner input = new Scanner(System.in);
+        int result = input.nextInt();
+         if (result>=90){
+             System.out.println("A");
+         } else if (result>59&&result<90){
+             System.out.println("B");
+         }else {
+             System.out.println("C");
+         }
 //   无重复数字
 
 //        Random rand = new Random();
@@ -72,7 +72,7 @@ public class TwoWork {
 //            } }
 //       System.out.println("这个数不是回文数，请刷新重新输入!!!");
 
-        
+
 //        判断平年还是闰年
 //        int year=0;
 //        Scanner input=new Scanner(System.in);
